@@ -81,7 +81,15 @@ def palindrome():
         Reverse = (Reverse *10) + Reminder    
         Number = Number //10    
     print("\n Reverse of entered number is = %d" %Reverse)
-
+    
+  def check(n): 
+    if n > 0: 
+        print("Positive")
+    elif n < 0: 
+        print("Negative")
+    else: 
+        print("Equal to zero")
+        
 if __name__=='__main__':
   add()
   multiply()
@@ -90,4 +98,5 @@ if __name__=='__main__':
   print_factors()
   palindrome()
   reverse()
+  check(n)
 
